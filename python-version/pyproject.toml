@@ -1,0 +1,23 @@
+[project]
+name = "extended-tatu-wrapper"
+version = "0.1.0"
+description = "Python implementation of the extended TATU wrapper"
+authors = [{ name = "Extended TATU Contributors" }]
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["extended_tatu_wrapper*" ]
