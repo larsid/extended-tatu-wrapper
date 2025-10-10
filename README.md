@@ -26,7 +26,7 @@ O repositório está organizado por linguagem. Cada implementação mantém seu 
 
 ## Estratégia de versionamento
 1. **Escolha a linguagem desejada:** navegue até o diretório correspondente (`java-version/` ou `python-version/`).
-2. **Leia a documentação local:** cada implementação possui instruções passo a passo para instalação de dependências, execução de exemplos e execução de testes (por exemplo, confira o [README da versão Java](java-version/README.md)).
+2. **Leia a documentação local:** cada implementação possui instruções passo a passo para instalação de dependências, execução de exemplos e execução de testes.
 3. **Execute o wrapper:** siga os comandos indicados no README específico da linguagem para iniciar o wrapper, conectar-se ao broker ou interagir com os dispositivos TATU.
 4. **Contribua:** abra issues ou pull requests indicando a linguagem impactada. Mantenha as implementações independentes e sincronize funcionalidades quando fizer sentido para o ecossistema como um todo.
 
