@@ -83,12 +83,8 @@ Outras operações disponibilizadas:
 - `TATUWrapper.buildGetMessageResponse(...)` e `buildFlowMessageResponse(...)` para formatar respostas de broker.
 - `DeviceWrapper` e `SensorWrapper` para converter objetos Java em JSON e vice-versa.
 
-## Publicação e versionamento
-
-Siga a convenção de tags do repositório (`vMAJOR.MINOR.PATCH-java`). Sempre atualize a documentação
-quando introduzir novos métodos ou alterar a estrutura dos modelos.
-
 ## Próximos passos sugeridos
 
 - Adicionar testes unitários cobrindo os builders de mensagens.
 - Implementar exemplos de integração com um broker MQTT para demonstrar o uso do wrapper em produção.
+- Sempre atualizar a documentação quando introduzir novos métodos ou alterar a estrutura dos modelos.
