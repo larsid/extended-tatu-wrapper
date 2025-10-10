@@ -24,21 +24,10 @@ O repositório está organizado por linguagem. Cada implementação mantém seu 
 
 ## Como utilizar
 
-## Estratégia de versionamento
 1. **Escolha a linguagem desejada:** navegue até o diretório correspondente (`java-version/` ou `python-version/`).
 2. **Leia a documentação local:** cada implementação possui instruções passo a passo para instalação de dependências, execução de exemplos e execução de testes.
 3. **Execute o wrapper:** siga os comandos indicados no README específico da linguagem para iniciar o wrapper, conectar-se ao broker ou interagir com os dispositivos TATU.
 4. **Contribua:** abra issues ou pull requests indicando a linguagem impactada. Mantenha as implementações independentes e sincronize funcionalidades quando fizer sentido para o ecossistema como um todo.
-
-## Versionamento
-
-Utilizamos tags específicas por tecnologia para identificar lançamentos independentes:
-
-- `vMAJOR.MINOR.PATCH-java` identifica uma release da versão Java.
-- `vMAJOR.MINOR.PATCH-python` identifica uma release da versão Python.
-
-Os históricos de cada implementação evoluem de forma independente, permitindo que correções ou features sejam entregues sem interferir na outra linguagem. Quando necessário publicar atualizações simultâneas, crie as duas tags correspondentes no mesmo commit.
-Os históricos de cada implementação evoluem de forma independente, permitindo que correções ou funcionalidades sejam entregues sem interferir na outra linguagem. Quando necessário publicar atualizações simultâneas, crie as duas tags correspondentes no mesmo commit.
 
 ## Recursos adicionais
 
